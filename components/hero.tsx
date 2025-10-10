@@ -25,8 +25,9 @@ export function Hero() {
             Software Engineer • Frontend Developer
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            Building reliable, fast, and scalable web systems for the future of Africa.
+            Crafting responsive, accessible, and visually engaging web experiences that connect people and technology.
           </p>
+
 
           <div className="flex flex-wrap gap-4 pt-6">
             <Button asChild size="lg" className="group">
@@ -42,28 +43,28 @@ export function Hero() {
 
           <div className="flex gap-6 pt-8">
             <a
-              href="https://github.com/akdavid"
+              href="https://github.com/shadowless16"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <Github className="h-6 w-6" />
+              <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com/in/akdavid"
+              href="https://www.linkedin.com/in/david-akinwumi-tech/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <Linkedin className="h-6 w-6" />
+              <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://twitter.com/akdavid"
+              href="https://x.com/ak_david_"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <Twitter className="h-6 w-6" />
+              <Twitter className="h-5 w-5" />
             </a>
           </div>
         </div>
