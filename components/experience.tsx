@@ -4,36 +4,36 @@ import { useEffect, useRef, useState } from "react"
 
 const experiences = [
   {
-    title: "Freelance Frontend Developer",
+    title: "Freelance Full-Stack Developer",
     company: "Self-Employed",
     location: "Lagos, Nigeria",
     period: "2023 — Early 2024",
     description:
-      "Designed and developed responsive websites and landing pages for small businesses using React, Tailwind CSS, and JavaScript. Focused on clean UI, accessibility, and mobile optimization.",
+      "Designed and developed responsive websites and landing pages for small businesses using React, Node.js, and MongoDB. Focused on clean UI, backend API integration, accessibility, and mobile optimization.",
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     company: "Educeptis",
     location: "Lagos, Nigeria",
     period: "Jan 2024 — May 2024",
     description:
-      "Built an education-focused web platform aimed at improving digital learning experiences. Implemented dynamic components, form workflows, and dashboard interfaces using Next.js and TypeScript.",
+      "Built an education-focused web platform aimed at improving digital learning experiences. Implemented dynamic components, form workflows, dashboard interfaces, and backend APIs using Next.js, TypeScript, Node.js, and MongoDB.",
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     company: "The Nest Church",
     location: "Lagos, Nigeria",
     period: "Jun 2024 — Aug 2024",
     description:
-      "Developed and deployed a modern church management website with Next.js, TypeScript, and Tailwind CSS. Focused on responsive design, motion-based interactivity, and seamless content updates.",
+      "Developed and deployed a modern church management system with Next.js, TypeScript, Node.js, Express.js, and MongoDB. Built responsive frontend, backend APIs for event management, and seamless content delivery.",
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     company: "DevSocial",
     location: "Remote",
     period: "Aug 2024 — Present",
     description:
-      "Leading the frontend development of a real-time developer social platform. Built with Next.js 14, TypeScript, and Tailwind CSS, featuring dynamic feeds, gamification, and responsive UI systems.",
+      "Leading full-stack development of a real-time developer social platform. Built with Next.js 14, TypeScript, Node.js, Socket.io, and MongoDB, featuring dynamic feeds, real-time chat, gamification, and responsive UI systems.",
   },
 ]
 

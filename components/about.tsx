@@ -2,16 +2,11 @@
 
 import { useEffect, useRef, useState } from "react"
 
-const skills = [
-  "Next.js",
-  "React",
-  "TypeScript",
-  "TailwindCSS",
-  "JavaScript",
-  "Framer Motion",
-  "GitHub",
-  "UI/UX Design",
-]
+const skills = {
+  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  backend: ["Node.js", "Express.js", "REST API", "API Integration"],
+  database: ["MongoDB", "PostgreSQL", "SQLite"],
+}
 
 export function About() {
   const [isVisible, setIsVisible] = useState(false)
@@ -55,14 +50,15 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I'm <span className="text-primary font-semibold">Ak David</span>, a frontend developer focused on building
+                I'm <span className="text-primary font-semibold">Ak David</span>, a full-stack developer focused on building
                 interactive, responsive, and visually engaging web applications.
               </p>
               <p>
                 I specialize in crafting modern user interfaces using{" "}
                 <span className="text-primary">Next.js</span>,{" "}
                 <span className="text-primary">React</span>, and{" "}
-                <span className="text-primary">Tailwind CSS</span>.
+                <span className="text-primary">Tailwind CSS</span>, with backend expertise in{" "}
+                <span className="text-primary">Node.js</span> and database management.
               </p>
               <p>
                 My current projects include <span className="text-primary">DevSocial</span> and{" "}
@@ -71,21 +67,39 @@ export function About() {
               </p>
             </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-6 text-foreground">
-                Frontend technologies I work with:
-              </h3>
-              <div className="grid grid-cols-2 gap-3">
-                {skills.map((skill, index) => (
-                  <div
-                    key={skill}
-                    className="flex items-center gap-2 text-muted-foreground font-mono text-sm"
-                    style={{ animationDelay: `${index * 50}ms` }}
-                  >
-                    <span className="text-primary">▹</span>
-                    {skill}
-                  </div>
-                ))}
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Frontend</h3>
+                <div className="grid grid-cols-2 gap-2">
+                  {skills.frontend.map((skill) => (
+                    <div key={skill} className="flex items-center gap-2 text-muted-foreground font-mono text-sm">
+                      <span className="text-primary">▹</span>
+                      {skill}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Backend</h3>
+                <div className="grid grid-cols-2 gap-2">
+                  {skills.backend.map((skill) => (
+                    <div key={skill} className="flex items-center gap-2 text-muted-foreground font-mono text-sm">
+                      <span className="text-primary">▹</span>
+                      {skill}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Database</h3>
+                <div className="grid grid-cols-2 gap-2">
+                  {skills.database.map((skill) => (
+                    <div key={skill} className="flex items-center gap-2 text-muted-foreground font-mono text-sm">
+                      <span className="text-primary">▹</span>
+                      {skill}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

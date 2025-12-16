@@ -22,7 +22,7 @@ export function Hero() {
           <p className="text-primary font-mono text-sm sm:text-base mb-2">Hi, my name is</p>
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-4">Ak David</h1>
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-muted-foreground">
-            Software Engineer • Frontend Developer
+            Software Engineer • Full-Stack Developer
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl leading-relaxed">
             Crafting responsive, accessible, and visually engaging web experiences that connect people and technology.
